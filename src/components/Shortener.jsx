@@ -21,7 +21,7 @@ const Shortener = () => {
               <h1 className='font-bold text-[hsl(260,8%,14%)] py-3 text-xl md:text-sm lg:text-2xl'>Brand Recognition</h1>
               <p className='text-[hsl(0,0%,75%)] text-sm md:text-md text-center md:text-start'>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links helps instill confidence in your content</p>
             </div>
-              <h1 className='md:border-b-6 border-t-0 border-l-0 md:border-r-0 border-r-6 border-b-0 w-[50%] md:w-auto border-[hsl(180,66%,49%)] text-gray-100 h-[125px]'>...</h1>
+              <h1 className='md:border-b-6 border-t-0 border-l-0 md:border-r-0 border-r-6 border-b-0 w-[50%] md:w-auto border-[hsl(180,66%,49%)] text-gray-100 h-[125px]'>____</h1>
             {/* second box */}
             <div className='bg-white rounded-md px-5 py-10 relative min-h-[250px] flex flex-col justify-center items-center md:items-start md:mt-7'>
                 <div className='w-18 h-18 rounded-full bg-[hsl(257,27%,26%)] flex justify-center items-center absolute bottom-[85%]'>
@@ -30,7 +30,7 @@ const Shortener = () => {
                 <h1 className='font-bold text-[hsl(260,8%,14%)] py-3 text-xl md:text-sm lg:text-2xl'>Detailed Records</h1>
                 <p className='text-[hsl(0,0%,75%)] text-sm md:text-md text-center md:text-start'>Gain insight into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions</p>
             </div>
-              <h1 className='md:border-b-6 border-t-0 border-l-0 md:border-r-0 border-r-6 border-b-0 w-[50%] md:w-auto border-[hsl(180,66%,49%)] text-gray-100 h-[125px]'>...</h1>
+              <h1 className='md:border-b-6 border-t-0 border-l-0 md:border-r-0 border-r-6 border-b-0 w-[50%] md:w-auto border-[hsl(180,66%,49%)] text-gray-100 h-[125px]'>____</h1>
             {/* third box */}
             <div className='bg-white rounded-md px-5 py-10 relative min-h-[250px] flex flex-col justify-center items-center md:items-start md:mt-18'>
                 <div className='w-18 h-18 rounded-full bg-[hsl(257,27%,26%)] flex justify-center items-center absolute bottom-[85%]'>
