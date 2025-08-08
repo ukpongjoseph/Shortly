@@ -65,7 +65,7 @@ const Advanced = () => {
     }
   } 
   return (
-      <div className='flex flex-col w-[100%] md:w-[85vw] lg:w-[80vw] mx-auto container'>
+      <div className='flex flex-col w-[95%] md:w-[85vw] lg:w-[80vw] mx-auto container'>
         <div>
           <div id='shortener' className='w-[100%] bg-[hsl(257,27%,26%)] rounded-lg px-2 py-6 md:py-12'>
            <form onSubmit={handleSubmit} className='flex justify-center flex-col md:flex-row gap-2 md:gap-3'>
@@ -75,7 +75,7 @@ const Advanced = () => {
              }} className='p-2 md:py-4 w-[100%] bg-white rounded-md ' type="text" placeholder='Shorten a link here...' name='userPrompt' id='userPrompt' value={url.userPrompt} onChange={handleChange}/>
              {error && <p className='text-red-600 text-sm font-normal'>{error.userPrompt}</p>}
              </div>
-            <button type='submit' className='text-white rounded-lg bg-[hsl(180,66%,49%)] py-2 md:py-4 md:w-[18%] hover:bg-[hsla(180,66%,49%,0.5)] md:h-[55px]'>Shorten it!</button>
+            <button type='submit' className='text-white rounded-lg bg-[hsl(180,66%,49%)] py-2 md:py-4 md:w-[18%] hover:bg-[hsla(180,66%,49%,0.5)] md:h-[60px]'>Shorten it!</button>
            </form>
          </div>
         <div className='flex flex-col md:w-[100%] container mx-auto pt-3 gap-2'>
