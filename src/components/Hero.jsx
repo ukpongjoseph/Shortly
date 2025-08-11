@@ -11,7 +11,7 @@ const Hero = () => {
               <div className='text-center md:text-start flex flex-col gap-4 md:w-[50%] md:my-auto'>
                   <h1 className='font-bold text-4xl md:text-5xl lg:text-6xl'>More than just shorter links</h1>
                   <p className='text-[hsl(257,7%,63%)] text-md md:text-lg lg:text-xl'>Build your brand's recognition and get detailed insights on how your links are performing</p>
-                  <button className='rounded-full bg-[hsl(180,66%,49%)] text-white px-3 py-1 hover:cursor-pointer hover:bg-[hsla(180,66%,49%,0.5)] font-semibold text-md md:text-lg lg:text-xl lg:w-[30%] w-[50%] mx-auto md:mx-0'>Get Started</button>
+                  <button className='rounded-full bg-[hsl(180,66%,49%)] text-white px-3 py-1 hover:cursor-pointer hover:bg-[hsla(180,66%,49%,0.5)] font-semibold text-md md:text-lg lg:text-xl lg:w-[40%] w-[50%] mx-auto md:mx-0'>Get Started</button>
               </div>
           </div>
       </div>
