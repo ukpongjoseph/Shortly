@@ -61,7 +61,11 @@ const Advanced = () => {
           })
         }
       } catch (error) {
-        setFetchError(error.message)
+        if(error.message === "Request failed with status code 400"){
+          setFetchError("Bad Request, Provide a vaild Url")
+        }else{
+          setFetchError(error.message)
+        }
       }
     }
   } 
