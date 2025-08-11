@@ -8,7 +8,6 @@ const Landing = () => {
   return (
     <div>
         <Nav/>  
-        {/* <Advanced/> */}
         <Shortener/>
         <Footer/>
     </div>
