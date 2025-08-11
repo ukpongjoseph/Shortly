@@ -92,7 +92,7 @@ const Advanced = () => {
           )
         }
       </div>
-      <button onClick={clearHistory} className='text-white bg-[hsl(180,66%,49%)] hover:bg-[hsla(180,66%,49%,0.7)] rounded-lg px-3 py-1'>Clear History</button>
+      <button onClick={clearHistory} className='text-white bg-[hsl(180,66%,49%)] hover:bg-[hsla(180,66%,49%,0.7)] rounded-lg px-3 py-1 text-[12px] md:text-[12px] lg:text-[14px]'>Clear History</button>
       </div>
     </div>
   )

@@ -12,17 +12,17 @@ const Nav = () => {
     <div className=''>
         <div className='w-[95%] md:w-[85vw] lg:w-[80vw] mx-auto container flex justify-between py-4'>
         <div className='flex gap-10'>
-            <img className='w-[120px] md:w-[160px]' src={logo} alt="Shortly Logo" />
+            <img className='w-[120px] lg:w-[140px]' src={logo} alt="Shortly Logo" />
             <div className='md:flex md:gap-5 lg:gap-7 hidden text-[hsl(257,7%,63%)] font-semibold text-md my-auto'>
-                <a className='hover:cursor-pointer hover:text-black' href="#">Features</a>
-                <a className='hover:cursor-pointer hover:text-black' href="#">Pricing</a>
-                <a className='hover:cursor-pointer hover:text-black' href="#">Resources</a>
+                <a className='hover:cursor-pointer hover:text-black text-sm' href="#">Features</a>
+                <a className='hover:cursor-pointer hover:text-black text-sm' href="#">Pricing</a>
+                <a className='hover:cursor-pointer hover:text-black text-sm' href="#">Resources</a>
             </div>
 
         </div>
         <div className='md:flex md:gap-7 hidden items-center my-auto font-semibold text-md'>
-            <button className='text-[hsl(257,7%,63%)] hover:cursor-pointer hover:text-black'>LogIn</button>
-            <button className='rounded-full bg-[hsl(180,66%,49%)] text-white px-3 py-1 hover:cursor-pointer hover:bg-[hsla(180,66%,49%,0.5)]'>Sign Up</button>
+            <button className='text-[hsl(257,7%,63%)] hover:cursor-pointer hover:text-black text-sm'>LogIn</button>
+            <button className='rounded-full bg-[hsl(180,66%,49%)] text-white px-3 py-1 hover:cursor-pointer hover:bg-[hsla(180,66%,49%,0.5)] text-sm'>Sign Up</button>
         </div>
         <button onClick={mobileToggle} className='block md:hidden mb-2'><Menu/></button>
         </div>
